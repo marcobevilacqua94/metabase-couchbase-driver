@@ -1,5 +1,5 @@
 (ns metabase.driver.couchbase
-  "Driver for couchbase databases. Uses the official Microsoft JDBC driver under the hood (pre-0.25.0, used jTDS)."
+  "!!! Most of this code is copied from SQL Server driver and should be revisited"
   (:require
     [clojure.data.xml :as xml]
     [clojure.java.io :as io]
