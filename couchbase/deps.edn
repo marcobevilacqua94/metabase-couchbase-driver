@@ -1,0 +1,6 @@
+{:paths
+ ["src" "resources"]
+
+ :deps
+ {com.couchbase.client.jdbc/com.couchbase.client.jdbc {:local/root "lib/couchbase-jdbc-driver-1.0.5.jar"}}
+ }
